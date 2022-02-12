@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ちゃあさんが遊んだコース一覧</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="front-detection" content="telephone=no">
+
+  <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+
+  <script src="./js/popup.js" async type="text/javascript"></script>
+  <link rel="stylesheet" href="./css/base.css" type="text/css">
+  <link rel="stylesheet" href="./css/class.css" type="text/css">
+  <link rel="stylesheet" href="./css/attention.css" type="text/css">
+</head>
+<body>
+  <duv class="mainContainer">
+    <div class="cource_table center">
+      <div class="contentItem">
+        <iframe width="1050" height="500" frameborder="0" scrolling="no"
+        src="https://onedrive.live.com/embed?resid=B909C18AD719F6FD%21112&authkey=%21AJ_Vp2J2KjB8O5Q&em=2&ActiveCell='course_all'!A2&wdHideGridlines=True&wdHideHeaders=True&wdDownloadButton=True&wdInConfigurator=True"></iframe>
+      </div>
+    </div>
+  </duv>
+  <div class="headerContainer">
+    <span class="headerTtl">ちゃあさんが遊んだコース</span>
+    <div class="header--right">
+      <div class="popup" id="js-popup">
+        <div class="popup-inner">
+          <div class="close-btn" id="js-close-btn"><i class="fas fa-times"></i></div>
+          <div>
+            <ol>
+              <li>動画で「過去に遊んでいます」等のコメントをする行為はおやめください。</li>
+              <li>例え同じコースでも、その都度異なるリアクションが楽しめます。</li>
+              <li>マリメ2をもっていないためコースの確認は動画のみです。</li>
+            </ol>
+          </div>
+        </div>
+        <div class="black-background" id="js-black-bg"></div>
+      </div>
+      <button id="js-show-popup" class="btn btn--red btn--radius">注意事項</button>
+    </div>
+  </div>
+</body>
+</html>
